@@ -1,0 +1,175 @@
+:root {
+  --Font-Color: rgba(255, 255, 255, 0.43);
+  --Green-Color: rgb(0 242 96 / 1);
+  --Background-Color: #101216;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: black;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--Green-Color);
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+/* Start Portfolio */
+/* Start AboutME */
+.card {
+  background-color: #101216;
+}
+
+.profile-img img {
+  width: 150px;
+  height: 150px;
+}
+
+.name h4 {
+  color: var(--Green-Color);
+  font-family: "Edu NSW ACT Foundation", cursive;
+}
+
+.jop-subject,
+.Resume {
+  background-color: #14181d;
+  width: 80%;
+  height: 25px;
+  font-weight: 600;
+  color: var(--Font-Color);
+}
+
+.Resume a,
+.location,
+.email a,
+.whatsapp a,
+.phone a,
+.email-me a {
+  color: var(--Font-Color);
+}
+
+.email a,
+.whatsapp a,
+.phone a {
+  text-decoration: none;
+}
+
+.email:hover a,
+.whatsapp:hover a,
+.phone:hover a {
+  text-decoration: underline;
+}
+
+.links i {
+  font-size: 22px;
+  color: var(--Green-Color);
+}
+
+/* End AboutME */
+/* Start ResumeAbout */
+
+.i-do {
+  background-color: black;
+}
+.content i {
+  font-size: 50px;
+  color: var(--Green-Color);
+}
+
+.active-none {
+  display: none;
+}
+
+.progress {
+  height: 30px;
+  background-color: #14181d;
+}
+
+.progress-bar {
+  background-color: var(--Green-Color);
+}
+
+.progress-bar p {
+  font-size: 18px;
+  font-family: "Edu NSW ACT Foundation", cursive;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.nav-link {
+  color: white;
+  font-weight: bold;
+  font-family: "Edu NSW ACT Foundation", cursive;
+}
+
+.p-style,
+.project-name,
+.project-skills {
+  font-family: "Edu NSW ACT Foundation", cursive;
+}
+
+.nav-link:hover {
+color: var(--Green-Color);
+}
+
+.nav-pills .nav-link.active {
+  background-color: var(--Background-Color);
+  color: var(--Green-Color);
+  position: relative;
+}
+
+.nav-pills .nav-link.active::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  border-radius: 10px;
+  background-color: var(--Green-Color);
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.card-speacial {
+  background-color: black;
+}
+
+.card-icon i {
+  font-size: 35px;
+  color: var(--Green-Color);
+}
+
+.btn-site,
+.btn-site:hover {
+  background-color: var(--Green-Color);
+}
+
+.over {
+  height: 500px;
+  overflow-y: auto;
+}
+/* End ResumeAbout */
+/* End Portfolio */
