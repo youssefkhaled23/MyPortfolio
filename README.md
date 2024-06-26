@@ -65,7 +65,7 @@ This project is licensed under the MIT License. See the LICENSE file for more in
 Contact
 If you have any questions, suggestions, or feedback, feel free to contact me:
 
-Email: your-email@example.com
-LinkedIn: Your LinkedIn Profile
-GitHub: Your GitHub Profile
+Email: Khaledalsbaa2@gmail.com
+LinkedIn: youssef khaled
+GitHub: youssefkhaled23
 Thank you for visiting my portfolio!
