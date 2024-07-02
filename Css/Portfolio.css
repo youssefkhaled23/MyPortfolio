@@ -171,5 +171,9 @@ color: var(--Green-Color);
   height: 500px;
   overflow-y: auto;
 }
+
+.img img {
+  height: 157px;
+}
 /* End ResumeAbout */
 /* End Portfolio */
